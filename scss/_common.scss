@@ -1,0 +1,43 @@
+// _variables.scssを読み込む
+@use 'variables' as *;
+@use'mixin'as *;
+
+
+body{
+    color: $textColor1;
+    font-family: $caslon, $serif, $sans, serif;
+}
+
+h2{
+    font-size: 56px;
+
+    // @media screen and (max-width: 767px){
+    //         font-size: 24px;
+    //         color: red;
+    //     }
+    @include mq(sp){
+            font-size: 24px;
+            color: red;
+        }
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+.section{
+    padding: 200px 0;
+}
+
+.contents-container{
+    max-width: 1080px;
+    margin: 0 auto;
+}

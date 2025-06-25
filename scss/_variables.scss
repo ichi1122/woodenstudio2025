@@ -1,0 +1,15 @@
+// Color_variable 
+$baseColor1:#ffffff;
+$baseColor2:#E2DDD1;
+$mainColor1:#6E551B;
+$mainColor2:#3c2f10;
+$accentColor:#23460f;
+$textColor1:#333333;
+$textColor2:#ffffff;
+$overlay1: rgba(#3c2f10, 0.3); // ✅ 正しい書き方
+$overlay2: rgba(#ffffff, 0.85); // ✅ 正しい
+
+// Font_variable
+$caslon:"Libre Caslson Text";
+$serif:"Noto Serif JP";
+$sans:"Noto Sans JP";
